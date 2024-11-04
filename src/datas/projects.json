@@ -2,8 +2,8 @@
   {
     "id": 1,
     "title": "test",
-    "tags": ["tech1", "tech2"],
-    "cover": "img",
+    "tags": ["react", "scss"],
+    "cover": "./images/projets/test.png",
     "description": "description projet 1",
     "link": "lien git"
   },
