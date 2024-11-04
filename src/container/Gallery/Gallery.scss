@@ -1,0 +1,13 @@
+.gallery {
+  border: solid red;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+}

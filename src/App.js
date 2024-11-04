@@ -1,24 +1,16 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
+import Profil from './container/Profil/Profil';
 import Footer from './components/Footer/Footer';
-import Card from './components/Card/Card';
-
-import datas from './datas/projects.json';
-
-const projet = datas[0];
+import Gallery from './container/Gallery/Gallery';
 
 function App() {
   return (
     <>
       <Router>
         <main>
-          <Card
-            title={projet.title}
-            description={projet.description}
-            tags={projet.tags}
-            cover={projet.cover}
-            link={projet.link}
-          />
+          <Profil />
+          <Gallery />
         </main>
         <Footer />
       </Router>
