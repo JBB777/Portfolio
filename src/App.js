@@ -1,9 +1,13 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import Footer from './components/Footer/Footer';
+
 function App() {
   return (
     <div>
-      <header>
-        <h1>Test</h1>
-      </header>
+      <Router>
+        <Footer />
+      </Router>
     </div>
   );
 }
