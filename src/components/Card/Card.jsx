@@ -15,10 +15,10 @@ function Card({ title, description, tags, link, cover }) {
           })}
         </div>
       </div>
-      <div className="card__modal">
+      {/* <div className="card__modal">
         <p>{description}</p>
         <Link to={link}>Le dépôt Git</Link>
-      </div>
+      </div> */}
     </div>
   );
 }
