@@ -1,9 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Profil from './container/Profil/Profil';
-import Footer from './components/Footer/Footer';
 import Gallery from './container/Gallery/Gallery';
+import Skills from './container/Skills/Skills';
 import Form from './components/Form/Form';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <main>
           <Profil />
           <Gallery />
+          <Skills />
           <Form />
         </main>
         <Footer />
