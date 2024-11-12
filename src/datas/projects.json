@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Agence Immobilière Kasa",
+    "tags": ["React", "Scss"],
+    "cover": "./images/projets/kasa.png",
+    "description": "Projet de formation. Création du site web de l'agence de location immobilière Kasa. Utilisation de React/Sass.",
+    "link": "https://github.com/JBB777/OCProject7"
+  },
+  {
+    "id": 2,
+    "title": "Nina Carducci - Photographe",
+    "tags": ["Référencement", "Accessibilité"],
+    "cover": "./images/projets/ninaCarducci.png",
+    "description": "Projet de formation. Mise à jour du site de la photographe Nina Carducci afin d'améliorer le référencement et l'accessibilité du site.",
+    "link": "https://github.com/JBB777/OCProject8"
+  },
+  {
+    "id": 3,
+    "title": "Sophie Bluel - Architecte d'intérieur ",
+    "tags": ["Javascript", "Scss"],
+    "cover": "./images/projets/sophieBluel.png",
+    "description": "Projet de formation. Mise à jour du porttfolio de l'architecte Sophie Bluel. Cette MàJ ajoute la page de connexion administrateur et l'édition (ajout ou suppression) de la galerie des créations.",
+    "link": "https://github.com/JBB777/OCProject6"
+  }
+]
