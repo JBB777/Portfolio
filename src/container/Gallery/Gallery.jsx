@@ -13,9 +13,7 @@ function Gallery() {
               key={project.id}
               title={project.title}
               cover={project.cover}
-              description={project.description}
               tags={project.tags}
-              repo={project.link}
             />
           );
         })}
