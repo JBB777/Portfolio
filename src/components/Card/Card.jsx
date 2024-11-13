@@ -1,6 +1,5 @@
 import './Card.scss';
 import Tag from '../Tag/Tag';
-import { Link } from 'react-router-dom';
 
 function Card({ title, tags, cover }) {
   return (
