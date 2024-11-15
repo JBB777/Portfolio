@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Agence Immobilière Kasa",
     "tags": ["React", "Scss"],
-    "cover": "./images/projets/kasa.png",
+    "cover": "./images/projets/kasa.jpg",
     "description": "Projet de formation. Création du site web de l'agence de location immobilière Kasa. Utilisation de React/Sass.",
     "repo": "https://github.com/JBB777/OCProject7",
     "demo": ""

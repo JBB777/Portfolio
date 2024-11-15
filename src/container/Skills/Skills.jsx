@@ -6,7 +6,7 @@ const hardSkills = skills.hard;
 
 function Skills() {
   return (
-    <div className="skills">
+    <section className="skills">
       <h2>Compétences</h2>
       <div className="skills__container">
         {hardSkills.map((skill) => {
@@ -15,7 +15,7 @@ function Skills() {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 }
 

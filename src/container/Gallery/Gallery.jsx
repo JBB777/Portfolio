@@ -4,7 +4,7 @@ import Card from '../../components/Card/Card';
 
 function Gallery() {
   return (
-    <div id="gallery" className="gallery">
+    <section id="gallery" className="gallery">
       <h2 className="gallery__title">Projets</h2>
       <div className="gallery__container">
         {projects.map((project) => {
@@ -14,11 +14,14 @@ function Gallery() {
               title={project.title}
               cover={project.cover}
               tags={project.tags}
+              description={project.description}
+              repo={project.repo}
+              url={project.demo}
             />
           );
         })}
       </div>
-    </div>
+    </section>
   );
 }
 

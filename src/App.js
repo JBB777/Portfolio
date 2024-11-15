@@ -1,7 +1,7 @@
 import { BrowserRouter as Router } from 'react-router-dom';
 
 import Profil from './container/Profil/Profil';
-import Carrousel from './container/Carrousel/Carrousel';
+import Gallery from './container/Gallery/Gallery';
 import Skills from './container/Skills/Skills';
 import Form from './components/Form/Form';
 import Footer from './components/Footer/Footer';
@@ -12,7 +12,7 @@ function App() {
       <Router>
         <main>
           <Profil />
-          <Carrousel />
+          <Gallery />
           <Skills />
           <Form />
         </main>

@@ -29,7 +29,7 @@
       display: inline-block;
       height: auto;
       max-width: 80%;
-      padding: 8px;
+      padding: 10px;
     }
   }
   .img-tape--2 {
@@ -52,12 +52,12 @@
     align-items: center;
     padding: 0 20px;
     h1 {
-      width: max-content;
+      font-family: 'Courgette';
+      font-size: 28px;
     }
     p {
       width: 100%;
       text-align: justify;
-      line-height: 1.5;
     }
   }
 }

@@ -2,9 +2,12 @@ import './Profil.scss';
 
 function Profil() {
   return (
-    <div id="profil" className="profil">
+    <section id="profil" className="profil">
       <div className="img-tape img-tape--2">
-        <img src="./images/grincheux.jpg" alt="Jean-Baptiste Besançon" />
+        <img
+          src="./images/logo.png"
+          alt="Logo initial de Jean-Baptiste Besançon"
+        />
       </div>
 
       <div className="profil__txt">
@@ -16,7 +19,7 @@ function Profil() {
           front-end.
         </p>
       </div>
-    </div>
+    </section>
   );
 }
 
