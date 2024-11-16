@@ -7,9 +7,9 @@ function sendMessage(e) {
 
 function Form() {
   return (
-    <div className="form">
+    <section className="form">
       <h2>Contact</h2>
-      <form method="post" onSubmit={sendMessage}>
+      <form className="form__container" method="post" onSubmit={sendMessage}>
         <div className="form__field">
           <label htmlFor="name">Nom</label>
           <input id="name" type="text" placeholder="Votre nom" required />
@@ -24,14 +24,15 @@ function Form() {
           <label htmlFor="message">Message</label>
           <textarea
             id="message"
-            placeholder="Votre message"
+            placeholder="Votre message (20 caractères minimum)"
+            minLength={20}
             required
           ></textarea>
           <div className="form__error"></div>
         </div>
         <input type="submit" value="Envoyer" />
       </form>
-    </div>
+    </section>
   );
 }
 
