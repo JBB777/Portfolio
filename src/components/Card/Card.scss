@@ -16,6 +16,11 @@
     filter: brightness(50%);
   }
 
+  &:hover &__content-txt {
+    visibility: visible;
+    transition: 0.9s ease;
+  }
+
   &__cover {
     filter: brightness(85%);
     height: 100%;
@@ -23,7 +28,6 @@
   }
 
   &__content {
-    align-items: center;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -32,18 +36,26 @@
     position: relative;
     transform: translateY(calc(100% - 7.5rem));
     transition: transform 0.9s ease;
-    z-index: 1;
+    gap: 30px;
 
-    h3 {
-      font-size: 18px;
-      font-weight: 800;
-      margin: 0;
+    &-title {
       position: absolute;
-      top: 15px;
+      top: 0;
+      width: 100%;
+      text-align: center;
+      h3 {
+        font-size: 18px;
+        font-weight: 800;
+        margin: 0;
+      }
     }
 
-    p {
-      text-align: center;
+    &-txt {
+      visibility: hidden;
+      padding: 0 10px;
+      p {
+        text-align: justify;
+      }
     }
   }
 
@@ -52,11 +64,14 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
+    justify-content: center;
+    padding-top: 10px;
   }
 
   &__link {
     display: flex;
     gap: 30px;
+    justify-content: center;
     a {
       color: white;
       text-decoration: none;

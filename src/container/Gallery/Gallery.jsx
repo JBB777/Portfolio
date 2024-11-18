@@ -13,6 +13,7 @@ function Gallery() {
               key={project.id}
               title={project.title}
               cover={project.cover}
+              alt={project.alt}
               tags={project.tags}
               description={project.description}
               repo={project.repo}
