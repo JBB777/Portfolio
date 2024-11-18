@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: var(--bg-color);
+  background: var(--mustard-color);
+  color: black;
 
   input[type='submit'] {
     padding: 5px 10px;
@@ -10,7 +11,7 @@
     border-radius: 10px;
     width: 200px;
     background: black;
-    color: var(--bg-color);
+    color: var(--mustard-color);
     font-weight: bold;
 
     &:focus {
@@ -37,7 +38,7 @@
     label {
       position: absolute;
       top: -10px;
-      background: var(--bg-color);
+      background: var(--mustard-color);
       left: 20px;
       padding: 0 5px;
     }
@@ -46,7 +47,7 @@
       padding: 10px;
       border: 2px solid black;
       border-radius: 10px;
-      background: var(--bg-color);
+      background: var(--mustard-color);
 
       &:focus {
         outline: none;
@@ -59,7 +60,7 @@
       padding: 10px;
       border: 2px solid black;
       border-radius: 10px;
-      background: var(--bg-color);
+      background: var(--mustard-color);
 
       &:focus {
         outline: none;

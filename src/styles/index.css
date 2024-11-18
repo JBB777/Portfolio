@@ -1,5 +1,6 @@
 :root {
-  --bg-color: #f3ca20;
+  --mustard-color: #f3ca20;
+  /* --blue-night-color: #09033b; */
 }
 
 * {
@@ -21,13 +22,11 @@ main {
   padding-top: 10px;
 }
 
+section {
+  padding-bottom: 30px;
+}
+
 h2 {
   font-size: 24px;
   text-align: center;
-}
-
-@media screen and (min-width: 800px) {
-  main {
-    gap: 50px;
-  }
 }

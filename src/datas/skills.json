@@ -1,51 +1,37 @@
-{
-  "hard": [
-    {
-      "id": 1,
-      "title": "Html",
-      "cover": "/images/skills/logoHtml.svg"
-    },
-    {
-      "id": 2,
-      "title": "Css",
-      "cover": "/images/skills/logoCss.svg"
-    },
-    {
-      "id": 3,
-      "title": "Scss",
-      "cover": "/images/skills/logoScss.svg"
-    },
-    {
-      "id": 4,
-      "title": "JavaScript",
-      "cover": "/images/skills/logoJS.svg"
-    },
-    {
-      "id": 5,
-      "title": "React",
-      "cover": "/images/skills/logoReact.svg"
-    },
-    {
-      "id": 6,
-      "title": "Versioning",
-      "cover": "/images/github-mark.svg"
-    }
-  ],
-  "soft": [
-    {
-      "id": 1,
-      "title": "Autonome",
-      "cover": "/images/skills/autonomous.jpg"
-    },
-    {
-      "id": 2,
-      "title": "Curieux",
-      "cover": "/images/skills/curious.jpg"
-    },
-    {
-      "id": 3,
-      "title": "A l'écoute",
-      "cover": "/images/skills/tournesol.jpg"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "title": "Html",
+    "cover": "/images/skills/logoHtml.svg"
+  },
+  {
+    "id": 2,
+    "title": "Css",
+    "cover": "/images/skills/logoCss.svg"
+  },
+  {
+    "id": 3,
+    "title": "Scss",
+    "cover": "/images/skills/logoScss.svg"
+  },
+  {
+    "id": 4,
+    "title": "JavaScript",
+    "cover": "/images/skills/logoJS.svg"
+  },
+  {
+    "id": 5,
+    "title": "React",
+    "cover": "/images/skills/logoReact.svg"
+  },
+  {
+    "id": 6,
+    "title": "Versioning",
+    "cover": "/images/github-mark.svg"
+  },
+  {
+    "id": 7,
+    "title": "Maquettage",
+    "cover": "/images/skills/logoFigma.svg"
+  }
+]
