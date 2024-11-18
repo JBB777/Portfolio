@@ -18,6 +18,7 @@ function Profil() {
           Je suis Jean-Baptiste, informaticien reconvertie dans le développement
           front-end.
         </p>
+        <button>Voir mon CV</button>
       </div>
     </section>
   );
