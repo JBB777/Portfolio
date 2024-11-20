@@ -18,7 +18,7 @@ function Card({ title, tags, cover, alt, description, repo, url }) {
         <div className="card__content-txt">
           <p>{description}</p>
           <div className="card__link">
-            <Link to={repo}>
+            <Link to={repo} target="_blank">
               <span>Le code :</span>
               <img
                 src="./images/github-mark-white.svg"
@@ -26,7 +26,7 @@ function Card({ title, tags, cover, alt, description, repo, url }) {
               ></img>
             </Link>
             {url ? (
-              <Link to={url}>
+              <Link to={url} target="_blank">
                 <span>Le site</span>
               </Link>
             ) : null}

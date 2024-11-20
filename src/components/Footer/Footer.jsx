@@ -7,7 +7,7 @@ function Footer() {
     <div className="footer">
       <p>© 2024 - Jean-Baptiste Besançon.</p>
       <div className="footer__networks">
-        <Link to={'https://github.com/JBB777'}>
+        <Link to={'https://github.com/JBB777'} target="_blank">
           <img src="./images/github-mark-white.svg" alt="Logo Githhub"></img>
         </Link>
       </div>

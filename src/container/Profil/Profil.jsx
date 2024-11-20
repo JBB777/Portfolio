@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom';
 import './Profil.scss';
+import CV from '../../datas/CV.pdf';
 
 function Profil() {
   return (
@@ -15,10 +17,13 @@ function Profil() {
         <p>
           Bienvenue !!
           <br />
-          Je suis Jean-Baptiste, informaticien reconvertie dans le développement
-          front-end.
+          Je suis un informaticien reconverti dans le développement web
+          front-end. Actuellement en formation "Intégrateur Web" chez
+          OpenClassrooms en vue d'une certification RNCP de niveau 5.
         </p>
-        <button>Voir mon CV</button>
+        <a href={CV} target="_blank">
+          Voir mon CV
+        </a>
       </div>
     </section>
   );
