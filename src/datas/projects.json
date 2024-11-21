@@ -7,7 +7,7 @@
     "alt": "Photo de l'intérieur d'une maison, vue sur la table à manger.",
     "description": "Implémentation du front-end en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive. Travail sur la logique de présentation des données et les composants React. Utilisation de React Router pour configurer la navigation entre les différentes pages de l'application.",
     "repo": "https://github.com/JBB777/OCProject7",
-    "demo": ""
+    "demo": "https://agence-kasa-jbb.netlify.app/"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "alt": "Photo de la photographe Nina Carducci.",
     "description": "Mise à jour du site de la photographe Nina Carducci afin d'améliorer les performances, le référencement et l'accessibilité du site suite à l'identification des problèmes de chargement et de référencement.",
     "repo": "https://github.com/JBB777/OCProject8",
-    "demo": ""
+    "demo": "https://jbb777.github.io/OCProject8/"
   },
   {
     "id": 3,
@@ -37,6 +37,6 @@
     "alt": "Vue d'un plat dans une assiette, présentée sur une table dans un restaurant gastronomique.",
     "description": "Ma tâche principale a été d'intégrer une maquette en mobile-first. Je disposerais des maquettes pour mobile et desktop, du prototype sur Figma, ainsi que des images et textes nécessaires. Cette approche mobile-first m'a permis de comprendre l'importance de concevoir des sites web adaptatifs et réactifs.",
     "repo": "https://github.com/JBB777/OCProject4",
-    "demo": ""
+    "demo": "https://jbb777.github.io/OCProject4/"
   }
 ]
