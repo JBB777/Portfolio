@@ -24,6 +24,9 @@ function Profil() {
         <a href={CV} target="_blank">
           Voir mon CV
         </a>
+        <span className="profil__disponibilite">
+          Disponible à partir de mars 2025.
+        </span>
       </div>
     </section>
   );
