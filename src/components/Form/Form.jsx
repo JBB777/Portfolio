@@ -1,31 +1,69 @@
+import { useState } from 'react';
 import './Form.scss';
-
-function sendMessage(e) {
-  e.preventDefault();
-  console.log('Msg envoyé');
-}
+import emailjs from '@emailjs/browser';
 
 function Form() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    const params = {
+      name: name,
+      email: email,
+      message: message,
+    };
+
+    emailjs
+      .send('service_o5g8zwb', 'template_90jskaq', params, {
+        publicKey: 'dKepNZmgqr-qZ1VCL',
+      })
+      .then(
+        () => {
+          alert('Votre message a été transmit. Merci !!');
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          alert("Une erreur s'est produite.");
+          console.log(error);
+        },
+      );
+  };
+
   return (
     <section className="form">
       <h2>Contact</h2>
-      <form className="form__container" method="post" onSubmit={sendMessage}>
+      <form className="form__container" method="post" onSubmit={sendEmail}>
         <div className="form__field">
           <label htmlFor="name">Nom</label>
-          <input id="name" type="text" placeholder="Votre nom" required />
+          <input
+            id="name"
+            type="text"
+            placeholder="Votre nom"
+            onChange={(e) => setName(e.target.value)}
+            required
+          />
           <div className="form__error"></div>
         </div>
         <div className="form__field">
           <label htmlFor="email">Mail</label>
-          <input id="email" type="email" placeholder="Votre mail" required />
+          <input
+            id="email"
+            type="email"
+            placeholder="Votre mail"
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
           <div className="form__error"></div>
         </div>
         <div className="form__field">
           <label htmlFor="message">Message</label>
           <textarea
             id="message"
-            placeholder="Votre message (20 caractères minimum)"
-            minLength={20}
+            placeholder="Votre message"
+            onChange={(e) => setMessage(e.target.value)}
             required
           ></textarea>
           <div className="form__error"></div>
