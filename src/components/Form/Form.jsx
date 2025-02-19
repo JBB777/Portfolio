@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './Form.scss';
 import emailjs from '@emailjs/browser';
 
-function Form() {
+function Form({ onSuccess }) {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -22,18 +22,18 @@ function Form() {
       })
       .then(
         () => {
-          alert('Votre message a été transmit. Merci !!');
+          onSuccess(true);
           console.log('SUCCESS!');
         },
         (error) => {
-          alert("Une erreur s'est produite.");
+          //alert("Une erreur s'est produite.");
           console.log(error);
         },
       );
   };
 
   return (
-    <section className="form">
+    <div className="form">
       <h2>Contact</h2>
       <form className="form__container" method="post" onSubmit={sendEmail}>
         <div className="form__field">
@@ -45,7 +45,6 @@ function Form() {
             onChange={(e) => setName(e.target.value)}
             required
           />
-          <div className="form__error"></div>
         </div>
         <div className="form__field">
           <label htmlFor="email">Mail</label>
@@ -56,7 +55,6 @@ function Form() {
             onChange={(e) => setEmail(e.target.value)}
             required
           />
-          <div className="form__error"></div>
         </div>
         <div className="form__field">
           <label htmlFor="message">Message</label>
@@ -66,11 +64,10 @@ function Form() {
             onChange={(e) => setMessage(e.target.value)}
             required
           ></textarea>
-          <div className="form__error"></div>
         </div>
         <input type="submit" value="Envoyer" />
       </form>
-    </section>
+    </div>
   );
 }
 

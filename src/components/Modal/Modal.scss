@@ -1,0 +1,26 @@
+.modal {
+  position: absolute;
+  z-index: 99999;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 47%;
+    color: var(--mustard-color);
+    border: solid black;
+    background: black;
+  }
+}
+
+.overlay {
+  width: 100%;
+
+  &__active {
+    width: 100%;
+    filter: blur(3px);
+  }
+}
