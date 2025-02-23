@@ -18,8 +18,8 @@ function Profil() {
           Bienvenue !!
           <br />
           Je suis un informaticien reconverti dans le développement web
-          front-end. Actuellement en formation "Intégrateur Web" chez
-          OpenClassrooms en vue d'une certification RNCP de niveau 5.
+          front-end. Actuellement à la recherche d'une opportunité à la suite de
+          ma formation "Intégrateur Web" chez OpenClassrooms.
         </p>
         <a href={CV} target="_blank">
           Voir mon CV
