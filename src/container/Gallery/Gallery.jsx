@@ -5,7 +5,7 @@ import Card from '../../components/Card/Card';
 function Gallery() {
   return (
     <section id="gallery" className="gallery">
-      <h2 className="gallery__title">Projets</h2>
+      <h2 className="gallery__title">Mes projets</h2>
       <div className="gallery__container">
         {projects.map((project) => {
           return (

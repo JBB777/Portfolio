@@ -17,16 +17,25 @@ function Profil() {
         <p>
           Bienvenue !!
           <br />
+          <br />
           Je suis un informaticien reconverti dans le développement web
           front-end. Actuellement à la recherche d'une opportunité à la suite de
-          ma formation "Intégrateur Web" chez OpenClassrooms.
+          ma formation "Intégrateur Web" chez OpenClassroom.
+          <br />
+          <br />
+          Ouvert à toutes propositions me permettant d'évoluer dans un
+          environnement propice à la montée en gamme dans mon métier, entouré de
+          collègues ouvert aux partages de connaissances, entraides et moments
+          de rigolades 😄.
+          <br />
+          <br />
+          Conscient du chemin qu'il me reste à parcourir, je continue à me
+          former pour être le meilleur <s>dresseur</s> développeur possible 😊.
         </p>
         <a href={CV} target="_blank">
           Voir mon CV
         </a>
-        <span className="profil__disponibilite">
-          Disponible à partir de mars 2025.
-        </span>
+        <span className="profil__disponibilite">Disponible.</span>
       </div>
     </section>
   );
